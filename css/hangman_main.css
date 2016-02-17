@@ -1,0 +1,81 @@
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+  color: #384047;
+}
+
+form {
+  max-width: 600px;
+  margin: 10px auto;
+  padding: 20px 20px;
+  background: #f4f7f8;
+  border-radius: 8px;
+}
+
+h1 {
+  margin: 0 0 30px 0;
+  text-align: center;
+}
+
+.masked_word {
+  padding: 1px;
+}
+
+
+h2 {
+  text-align: center;
+  font-size: 3em;
+  border: 1.5px solid #3ac162;
+}
+
+.guess_counter{
+  text-align: center;
+  color: tomato;
+  font-size: 1em;
+  padding-bottom: 10px;
+}
+
+.alphbets {
+text-align:center
+}
+
+input[type="button"]{
+  color: #000;
+  background-color: #FFFFF0;
+  font-size: 16px;
+  text-align: center;
+  font-style: normal;
+  border-radius: 2px;
+  width: 19%;
+  border: 1px solid #3ac162;
+  border-width: 1px 1px 1px;
+  box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+  margin-bottom: 2px;
+}
+
+input[type="button"]:disabled {
+  background-color:#f4f7f8;
+}
+
+input[id="greenreset"],
+button {
+  padding: 16px 39px 16px 39px;
+  color: #fff;
+  background-color: #33aa66;
+  font-size: 16px;
+  text-align: center;
+  font-style: normal;
+  border-radius: 2px;
+  width: 90%;
+  border: 1px solid #3ac162;
+  border-width: 1px 1px 1px;
+  box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+  margin-bottom: 5px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
